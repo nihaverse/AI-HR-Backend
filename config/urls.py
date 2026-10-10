@@ -32,6 +32,7 @@ urlpatterns = [
     path("api/token/refresh/", TokenRefreshView.as_view(), name="token_refresh"), #Get a new access token
 
     path("api/auth/", include("accounts.urls")),
+    path("api/ai/", include("ai.urls")),
 
     path("api/schema/", SpectacularAPIView.as_view(), name="schema"),
     path(

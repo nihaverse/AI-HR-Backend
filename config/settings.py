@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'accounts',
     'corsheaders',
     'drf_spectacular',
+    'ai',
 ]
 
 AUTH_USER_MODEL = "accounts.User"
